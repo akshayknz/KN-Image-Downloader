@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>KN Image Downloader</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;600;900&display=swap');
+
+		body {
+			width: 100vw;
+			overflow-x: hidden;
+			font-family: 'Heebo', sans-serif;
+			font-weight: 500;
+		}
+
+		.container {
+			padding: 1vh 2vh;
+		}
+
+		h1 {
+			font-weight: 100;
+			font-size: 4em;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		.info {
+			height: 10px;
+			width: 1px;
+			background-color: #000;
+			display: inline-block;
+			margin: 6px 3px 0px 18px;
+		}
+
+		.url {
+			border-bottom: 1px dotted #000;
+			opacity: .7;
+			color: blue;
+		}
+
+		.input {
+			display: inline-block;
+			border: 1px solid rgba(0, 0, 0, .3);
+		}
+
+		code {
+			background-color: rgb(0 0 0 / 10%);
+			padding: 3px;
+		}
+	</style>
+
+<body>
+	<div class='container'>
+		<h1>KN Image Downloader</h1>
+		<p>
+			Downloads all tabs that open jpeg/jpg/png/webp/gif image files natively using
+			<code>chrome.downloads.download()</code> method.
+		</p>
+		<p>Hi, I'm <a href="https://akshaykn.vercel.app/" target="_blank">Akshay K Nair</a>. Follow me on socials:
+			<a href="https://www.linkedin.com/in/akshay-k-nair/" target="_blank">LinkedIn</a>,&nbsp;
+			<a href="https://github.com/akshayknz" target="_blank">GitHub</a>. Email me at <a
+				href="mailto:akshayakn6@gmail.com">akshayakn6@gmail.com</a>
+		</p>
+		<div class='container log'>
+			<div id='log'>LOG</div>
+		</div>
+</body>
+<script src="script.js"></script>
+
+</html>
